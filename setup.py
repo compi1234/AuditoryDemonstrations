@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
-from version import __version__
 setup(
     name="AuditoryDemonstrations",
-    version="__version__",
+    version="0.0.1",
     url="https://github.com/compi1234/AuditoryDemonstrations",
 
     author="Dirk Van Compernolle",
@@ -11,8 +10,8 @@ setup(
     description="{\em Hi}",
     license = "free",
     
-    packages = ['utils'],
-    py_modules = ['version'],
+    packages = ['ad_utils'],
+    py_modules = [],
     # a dictionary refering to required data not in .py files
     package_data = {},
     
