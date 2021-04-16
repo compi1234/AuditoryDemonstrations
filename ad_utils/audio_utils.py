@@ -24,7 +24,7 @@ import scipy.signal
 
 from urllib.request import urlopen
 from urllib.parse import urlparse
-from IPython.display import display, Audio, HTML
+from IPython.display import display, Audio, HTML, Javascript
 import soundfile as sf    
 import math
 import numpy as np
